@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { addTodo } from "./todolistSlice";
+import { addTodo, deleteTodo } from "./todolistSlice";
 
 
 function TodoList(){
@@ -18,6 +18,7 @@ function TodoList(){
                 return <li className="mb-2">
                      <i class="bi bi-caret-right-fill me-2"></i>
                     {todo}
+                    <button className=" ms-3 mb-3 rounded-3" onClick={()=>{dispatch(deleteTodo(newTodo))}}>Delete</button>
                     </li>
             })
         }
