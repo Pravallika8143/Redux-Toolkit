@@ -6,7 +6,7 @@ import { addTodo } from "./todolistSlice";
 function TodoList(){
     var {todos}=useSelector(state=>state.todolistR);
     var dispatch= useDispatch();
-    var [newTodo,setNewTodo]=React.useState("")
+    var [newTodo,setNewTodo]=React.useState("");
     return (
     <div className="border border-2 m-3 p-3 border-secondary rounded-3">
        <h1 style={{marginLeft:"35%"}}>Todolist</h1>
