@@ -1,6 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-
 const initialState={
     todos:["Pravallika","Uma","Rajii","Bindhu","Sai"]
 }
