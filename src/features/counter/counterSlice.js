@@ -12,6 +12,9 @@ export const counterSlice= createSlice({
     dec:(state)=>{
         state.count--
     },
+    // res:(state)=>{
+    //     state.count(0)
+    // }
   }
 });
 

@@ -3,7 +3,7 @@ import TodoList from "./features/todolist/Todolist"
 
 function App() {
   return (
-    <div className="border border-2 m-3 p-3 border-dark rounded-3">
+    <div className="border border-2 m-3 p-3 border-dark rounded-3 text-center">
       <h1>Redux ToolKit</h1>
       <Counter></Counter>
       <TodoList></TodoList>
